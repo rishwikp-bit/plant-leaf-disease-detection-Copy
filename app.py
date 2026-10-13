@@ -19,7 +19,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-MODEL_PATH = "/content/plant_leaf_disease_mobilenetv2.keras"
+MODEL_PATH = "plant_leaf_disease_mobilenetv2.keras"
 
 CLASS_NAMES = [
     "Apple Scab Leaf",
