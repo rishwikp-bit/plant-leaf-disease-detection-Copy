@@ -21,7 +21,10 @@ st.set_page_config(
 
 import os
 
-MODEL_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "plant_leaf_disease_mobilenetv2.keras")
+MODEL_PATH = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)),
+    "plant_model_test.keras"
+)
 
 CLASS_NAMES = [
     "Apple Scab Leaf",
