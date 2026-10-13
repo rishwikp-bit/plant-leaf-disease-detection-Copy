@@ -19,7 +19,9 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-MODEL_PATH = "plant_leaf_disease_mobilenetv2.keras"
+import os
+
+MODEL_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "plant_leaf_disease_mobilenetv2.keras")
 
 CLASS_NAMES = [
     "Apple Scab Leaf",
