@@ -196,7 +196,7 @@ with st.sidebar:
 
     st.markdown("---")
     st.markdown("### Project information")
-    st.write("**Team:** TEAM-20")
+    st.write("**Team:** TEAM-16")
     st.write("**Model:** MobileNetV2")
     st.write("**Framework:** TensorFlow")
     st.write("**Interface:** Streamlit")
@@ -217,7 +217,7 @@ with st.sidebar:
 # --------------------------------------------------
 
 st.markdown(
-    '<div class="team-tag">TEAM-20</div>',
+    '<div class="team-tag">TEAM-16</div>',
     unsafe_allow_html=True
 )
 
@@ -480,7 +480,7 @@ if result:
 
     report_text = f"""
 PLANT LEAF DISEASE DETECTION SYSTEM USING CNN MODEL IN DEEP LEARNING
-TEAM-20
+TEAM-16
 
 Prediction report
 -----------------
@@ -518,5 +518,5 @@ expert before making treatment decisions.
 
 st.markdown("---")
 st.caption(
-    "Plant Leaf Disease Detection System using CNN Model in Deep Learning · TEAM-20"
+    "Plant Leaf Disease Detection System using CNN Model in Deep Learning · TEAM-16"
 )
